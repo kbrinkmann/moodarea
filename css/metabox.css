@@ -1,0 +1,24 @@
+
+
+#metabox-moodarea { margin-top:20px; }
+
+#metabox-moodarea { min-width:870px; }
+
+
+.moodpicture { width:850px; height:300px;  border:1px solid #EEEEEE; }
+
+
+.moodpicture .picture { height:inherit; width:inherit; background-color:#F2F1EF; float:left; background-repeat:no-repeat;}
+.moodpicture .hidden { visibility: hidden; }
+
+.moodpicture .picture.two-pic { height:inherit; width:423px; background-color:#F2F1EF; }
+.moodpicture .picture.two-pic:nth-child(2) {margin-left:4px; }
+
+.moodpicture .picture .commandline { position:relative; top:280px; left:0px; height:20px; width:100%; text-align:right;}
+.moodpicture .picture .commandline a { 
+	margin-left:10px; margin-right:10px; display:block; padding-top:2px; padding-bottom:2px; padding-left:10px; padding-right:10px;
+	background-color:#BBBBBB; float:left; 
+}
+
+.moodpicture .picture .commandline a.hidden { display:none; }
+
